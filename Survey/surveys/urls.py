@@ -10,6 +10,5 @@ urlpatterns = [
 	path('dashboard',Surveys,name='dashboard'),
 	path('survey',surveyForm,name='survey'),
 	path('report/<int:id>',Report,name="report"),
-	path('vote/<int:id>',Vote,name='vote')
-	
+	path('vote/<int:id>',Vote,name='vote')	
 ]
