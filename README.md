@@ -16,6 +16,13 @@ Use this command to install Django crispy forms module.
 $ pip3 install django-crispy-forms
 ```
 
+## Usage
+
+```bash
+$ python3 manage.py makemigrations
+$ python3 manage.py migrate
+$ python3 manage.py runserver
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
